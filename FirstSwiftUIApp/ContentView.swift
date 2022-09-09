@@ -32,6 +32,11 @@ struct ContentView: View {
                 Text("Navigation")
                 Image(systemName: "list.bullet")
             }.tag(4)
+            
+            InteractiveUIView().tabItem {
+                Text("Interactive UI")
+                Image(systemName: "heart.fill")
+            }.tag(5)
         })
     }
 }
