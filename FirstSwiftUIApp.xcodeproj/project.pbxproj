@@ -12,6 +12,8 @@
 		030621D828CB8178007A531B /* ButtonLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621D728CB8178007A531B /* ButtonLabelView.swift */; };
 		030621DA28CB8400007A531B /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621D928CB8400007A531B /* TextFieldView.swift */; };
 		030621DD28CB8A12007A531B /* TextFieldCptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621DC28CB8A12007A531B /* TextFieldCptView.swift */; };
+		030621DF28CB94CF007A531B /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621DE28CB94CF007A531B /* SecureFieldView.swift */; };
+		030621E128CB95E6007A531B /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621E028CB95E6007A531B /* TextEditorView.swift */; };
 		038A593328C8D4CB00F82E9F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A593228C8D4CB00F82E9F /* ListView.swift */; };
 		038A593528C8D7F000F82E9F /* ScrollViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A593428C8D7F000F82E9F /* ScrollViewExampleView.swift */; };
 		038A593828C8E59500F82E9F /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A593728C8E59500F82E9F /* ForEachView.swift */; };
@@ -43,6 +45,8 @@
 		030621D728CB8178007A531B /* ButtonLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabelView.swift; sourceTree = "<group>"; };
 		030621D928CB8400007A531B /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		030621DC28CB8A12007A531B /* TextFieldCptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCptView.swift; sourceTree = "<group>"; };
+		030621DE28CB94CF007A531B /* SecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldView.swift; sourceTree = "<group>"; };
+		030621E028CB95E6007A531B /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		038A593228C8D4CB00F82E9F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		038A593428C8D7F000F82E9F /* ScrollViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleView.swift; sourceTree = "<group>"; };
 		038A593728C8E59500F82E9F /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 		03E0E4C028C3AD3C00041E7A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				030621DE28CB94CF007A531B /* SecureFieldView.swift */,
+				030621E028CB95E6007A531B /* TextEditorView.swift */,
 				038A593628C8DF1600F82E9F /* List */,
 				03E0E4C128C3AD5F00041E7A /* NewsView.swift */,
 				03E0E4C328C65EC300041E7A /* CustomNavigationView.swift */,
@@ -249,11 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030621DF28CB94CF007A531B /* SecureFieldView.swift in Sources */,
 				03DA5C5328CB4842000128D9 /* SimpleItemView.swift in Sources */,
 				03DA5C5728CB605F000128D9 /* LazyVGridView.swift in Sources */,
 				038A594728CA431C00F82E9F /* PersonView.swift in Sources */,
 				038A594028CA301500F82E9F /* NavListView.swift in Sources */,
 				038A593A28C8EFDD00F82E9F /* ListStaticView.swift in Sources */,
+				030621E128CB95E6007A531B /* TextEditorView.swift in Sources */,
 				038A593528C8D7F000F82E9F /* ScrollViewExampleView.swift in Sources */,
 				03DA5C5C28CB689C000128D9 /* LazyHGridView.swift in Sources */,
 				038A593C28C8F45300F82E9F /* ListDynamicView.swift in Sources */,

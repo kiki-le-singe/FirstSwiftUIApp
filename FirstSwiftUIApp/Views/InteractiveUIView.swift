@@ -17,6 +17,8 @@ struct InteractiveUIView: View {
                 }
                 Section(header: Text("Texts")) {
                     NavigationLink("TextField", destination: TextFieldView())
+                    NavigationLink("SecureField", destination: SecureFieldView())
+                    NavigationLink("TextEditor", destination: TextEditorView())
                 }
             }
         }
