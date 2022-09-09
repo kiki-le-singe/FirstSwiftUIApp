@@ -36,6 +36,12 @@ struct ListView: View {
                 NavigationLink("Section List",
                    destination: SectionListView()
                 )
+                NavigationLink("LazyVStack View",
+                   destination: LazyVStackView()
+                )
+                NavigationLink("LazyHStack View",
+                   destination: LazyHStackView()
+                )
                 NavigationLink("LazyVGrid View",
                    destination: LazyVGridView()
                 )
