@@ -17,6 +17,12 @@
 		038A594328CA31D500F82E9F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A594228CA31D500F82E9F /* Person.swift */; };
 		038A594528CA42E100F82E9F /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A594428CA42E100F82E9F /* SectionListView.swift */; };
 		038A594728CA431C00F82E9F /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A594628CA431C00F82E9F /* PersonView.swift */; };
+		03DA5C5128CB46E5000128D9 /* LazyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA5C5028CB46E5000128D9 /* LazyVStackView.swift */; };
+		03DA5C5328CB4842000128D9 /* SimpleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA5C5228CB4842000128D9 /* SimpleItemView.swift */; };
+		03DA5C5528CB4B2E000128D9 /* LazyHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA5C5428CB4B2E000128D9 /* LazyHStackView.swift */; };
+		03DA5C5728CB605F000128D9 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA5C5628CB605F000128D9 /* LazyVGridView.swift */; };
+		03DA5C5A28CB6610000128D9 /* GridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA5C5928CB6610000128D9 /* GridItems.swift */; };
+		03DA5C5C28CB689C000128D9 /* LazyHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA5C5B28CB689C000128D9 /* LazyHGridView.swift */; };
 		03E0E4B328C25ADC00041E7A /* FirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0E4B228C25ADC00041E7A /* FirstSwiftUIAppApp.swift */; };
 		03E0E4B528C25ADC00041E7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0E4B428C25ADC00041E7A /* ContentView.swift */; };
 		03E0E4B728C25ADE00041E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E0E4B628C25ADE00041E7A /* Assets.xcassets */; };
@@ -37,6 +43,12 @@
 		038A594228CA31D500F82E9F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		038A594428CA42E100F82E9F /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
 		038A594628CA431C00F82E9F /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		03DA5C5028CB46E5000128D9 /* LazyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackView.swift; sourceTree = "<group>"; };
+		03DA5C5228CB4842000128D9 /* SimpleItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleItemView.swift; sourceTree = "<group>"; };
+		03DA5C5428CB4B2E000128D9 /* LazyHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStackView.swift; sourceTree = "<group>"; };
+		03DA5C5628CB605F000128D9 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
+		03DA5C5928CB6610000128D9 /* GridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItems.swift; sourceTree = "<group>"; };
+		03DA5C5B28CB689C000128D9 /* LazyHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridView.swift; sourceTree = "<group>"; };
 		03E0E4AF28C25ADC00041E7A /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0E4B228C25ADC00041E7A /* FirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		03E0E4B428C25ADC00041E7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +80,10 @@
 				038A593D28C9004700F82E9F /* ListObjectView.swift */,
 				038A593F28CA301500F82E9F /* NavListView.swift */,
 				038A594428CA42E100F82E9F /* SectionListView.swift */,
+				03DA5C5028CB46E5000128D9 /* LazyVStackView.swift */,
+				03DA5C5428CB4B2E000128D9 /* LazyHStackView.swift */,
+				03DA5C5628CB605F000128D9 /* LazyVGridView.swift */,
+				03DA5C5B28CB689C000128D9 /* LazyHGridView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -78,6 +94,14 @@
 				038A594228CA31D500F82E9F /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		03DA5C5828CB65F7000128D9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				03DA5C5928CB6610000128D9 /* GridItems.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		03E0E4A628C25ADC00041E7A = {
@@ -99,6 +123,7 @@
 		03E0E4B128C25ADC00041E7A /* FirstSwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				03DA5C5828CB65F7000128D9 /* Utils */,
 				038A594128CA31C400F82E9F /* Models */,
 				03E0E4C028C3AD3C00041E7A /* Views */,
 				03E0E4B228C25ADC00041E7A /* FirstSwiftUIAppApp.swift */,
@@ -126,6 +151,7 @@
 				03E0E4C528C7947F00041E7A /* BasicComponentsView.swift */,
 				038A593228C8D4CB00F82E9F /* ListView.swift */,
 				038A594628CA431C00F82E9F /* PersonView.swift */,
+				03DA5C5228CB4842000128D9 /* SimpleItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,13 +226,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DA5C5328CB4842000128D9 /* SimpleItemView.swift in Sources */,
+				03DA5C5728CB605F000128D9 /* LazyVGridView.swift in Sources */,
 				038A594728CA431C00F82E9F /* PersonView.swift in Sources */,
 				038A594028CA301500F82E9F /* NavListView.swift in Sources */,
 				038A593A28C8EFDD00F82E9F /* ListStaticView.swift in Sources */,
 				038A593528C8D7F000F82E9F /* ScrollViewExampleView.swift in Sources */,
+				03DA5C5C28CB689C000128D9 /* LazyHGridView.swift in Sources */,
 				038A593C28C8F45300F82E9F /* ListDynamicView.swift in Sources */,
 				03E0E4C228C3AD5F00041E7A /* NewsView.swift in Sources */,
 				03E0E4B528C25ADC00041E7A /* ContentView.swift in Sources */,
+				03DA5C5528CB4B2E000128D9 /* LazyHStackView.swift in Sources */,
+				03DA5C5A28CB6610000128D9 /* GridItems.swift in Sources */,
 				038A594528CA42E100F82E9F /* SectionListView.swift in Sources */,
 				038A593328C8D4CB00F82E9F /* ListView.swift in Sources */,
 				03E0E4C428C65EC300041E7A /* CustomNavigationView.swift in Sources */,
@@ -214,6 +245,7 @@
 				03E0E4C628C7947F00041E7A /* BasicComponentsView.swift in Sources */,
 				038A594328CA31D500F82E9F /* Person.swift in Sources */,
 				038A593E28C9004700F82E9F /* ListObjectView.swift in Sources */,
+				03DA5C5128CB46E5000128D9 /* LazyVStackView.swift in Sources */,
 				038A593828C8E59500F82E9F /* ForEachView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
