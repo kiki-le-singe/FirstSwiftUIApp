@@ -40,6 +40,8 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
+            ContentView()
+                .previewDevice("iPad Pro (9.7-inch)")
         }
     }
 }
