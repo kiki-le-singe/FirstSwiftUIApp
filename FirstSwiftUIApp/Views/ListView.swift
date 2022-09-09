@@ -36,7 +36,19 @@ struct ListView: View {
                 NavigationLink("Section List",
                    destination: SectionListView()
                 )
+                NavigationLink("LazyVGrid View",
+                   destination: LazyVGridView()
+                )
             })
+            
+            // comment above code to see the LazyHGrid View
+            // uncomment below code...
+//            VStack {
+//
+//                NavigationLink("LazyHGrid View",
+//                   destination: LazyHGridView()
+//                )
+//            }
         }
     }
 }
