@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030621D428CB7963007A531B /* InteractiveUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621D328CB7963007A531B /* InteractiveUIView.swift */; };
+		030210F328DA079300EAF545 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030210F228DA079300EAF545 /* ToggleView.swift */; };
+		030210F528DA088000EAF545 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030210F428DA088000EAF545 /* StepperView.swift */; };
+		030210F728DA095D00EAF545 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030210F628DA095D00EAF545 /* SliderView.swift */; };
+		030210F928DA0A1400EAF545 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030210F828DA0A1400EAF545 /* PickerView.swift */; };
+		030210FB28DA2D1700EAF545 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030210FA28DA2D1700EAF545 /* DatePickerView.swift */; };
+		030210FD28DA2F3200EAF545 /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030210FC28DA2F3200EAF545 /* SegmentedPickerView.swift */; };
+		030621D428CB7963007A531B /* UIControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621D328CB7963007A531B /* UIControlView.swift */; };
 		030621D628CB7DCF007A531B /* ButtonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621D528CB7DCF007A531B /* ButtonTextView.swift */; };
 		030621D828CB8178007A531B /* ButtonLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621D728CB8178007A531B /* ButtonLabelView.swift */; };
 		030621DA28CB8400007A531B /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621D928CB8400007A531B /* TextFieldView.swift */; };
@@ -40,7 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		030621D328CB7963007A531B /* InteractiveUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveUIView.swift; sourceTree = "<group>"; };
+		030210F228DA079300EAF545 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		030210F428DA088000EAF545 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		030210F628DA095D00EAF545 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		030210F828DA0A1400EAF545 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		030210FA28DA2D1700EAF545 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		030210FC28DA2F3200EAF545 /* SegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
+		030621D328CB7963007A531B /* UIControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlView.swift; sourceTree = "<group>"; };
 		030621D528CB7DCF007A531B /* ButtonTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTextView.swift; sourceTree = "<group>"; };
 		030621D728CB8178007A531B /* ButtonLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabelView.swift; sourceTree = "<group>"; };
 		030621D928CB8400007A531B /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -177,10 +189,16 @@
 				038A593228C8D4CB00F82E9F /* ListView.swift */,
 				038A594628CA431C00F82E9F /* PersonView.swift */,
 				03DA5C5228CB4842000128D9 /* SimpleItemView.swift */,
-				030621D328CB7963007A531B /* InteractiveUIView.swift */,
+				030621D328CB7963007A531B /* UIControlView.swift */,
+				030210FC28DA2F3200EAF545 /* SegmentedPickerView.swift */,
+				030210FA28DA2D1700EAF545 /* DatePickerView.swift */,
+				030210F828DA0A1400EAF545 /* PickerView.swift */,
 				030621D728CB8178007A531B /* ButtonLabelView.swift */,
 				030621D528CB7DCF007A531B /* ButtonTextView.swift */,
 				030621D928CB8400007A531B /* TextFieldView.swift */,
+				030210F228DA079300EAF545 /* ToggleView.swift */,
+				030210F428DA088000EAF545 /* StepperView.swift */,
+				030210F628DA095D00EAF545 /* SliderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,8 +275,10 @@
 			files = (
 				030621DF28CB94CF007A531B /* SecureFieldView.swift in Sources */,
 				03DA5C5328CB4842000128D9 /* SimpleItemView.swift in Sources */,
+				030210FB28DA2D1700EAF545 /* DatePickerView.swift in Sources */,
 				03DA5C5728CB605F000128D9 /* LazyVGridView.swift in Sources */,
 				038A594728CA431C00F82E9F /* PersonView.swift in Sources */,
+				030210F928DA0A1400EAF545 /* PickerView.swift in Sources */,
 				038A594028CA301500F82E9F /* NavListView.swift in Sources */,
 				038A593A28C8EFDD00F82E9F /* ListStaticView.swift in Sources */,
 				030621E128CB95E6007A531B /* TextEditorView.swift in Sources */,
@@ -271,16 +291,20 @@
 				030621DA28CB8400007A531B /* TextFieldView.swift in Sources */,
 				03DA5C5528CB4B2E000128D9 /* LazyHStackView.swift in Sources */,
 				03DA5C5A28CB6610000128D9 /* GridItems.swift in Sources */,
+				030210F528DA088000EAF545 /* StepperView.swift in Sources */,
+				030210F328DA079300EAF545 /* ToggleView.swift in Sources */,
 				038A594528CA42E100F82E9F /* SectionListView.swift in Sources */,
-				030621D428CB7963007A531B /* InteractiveUIView.swift in Sources */,
+				030621D428CB7963007A531B /* UIControlView.swift in Sources */,
 				030621DD28CB8A12007A531B /* TextFieldCptView.swift in Sources */,
 				030621D828CB8178007A531B /* ButtonLabelView.swift in Sources */,
 				038A593328C8D4CB00F82E9F /* ListView.swift in Sources */,
 				03E0E4C428C65EC300041E7A /* CustomNavigationView.swift in Sources */,
 				03E0E4B328C25ADC00041E7A /* FirstSwiftUIAppApp.swift in Sources */,
+				030210F728DA095D00EAF545 /* SliderView.swift in Sources */,
 				03E0E4C628C7947F00041E7A /* BasicComponentsView.swift in Sources */,
 				038A594328CA31D500F82E9F /* Person.swift in Sources */,
 				038A593E28C9004700F82E9F /* ListObjectView.swift in Sources */,
+				030210FD28DA2F3200EAF545 /* SegmentedPickerView.swift in Sources */,
 				03DA5C5128CB46E5000128D9 /* LazyVStackView.swift in Sources */,
 				038A593828C8E59500F82E9F /* ForEachView.swift in Sources */,
 			);
