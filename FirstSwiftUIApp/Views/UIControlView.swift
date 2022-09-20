@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InteractiveUIView: View {
+struct UIControlView: View {
     var body: some View {
         NavigationView {
             List {
@@ -20,13 +20,22 @@ struct InteractiveUIView: View {
                     NavigationLink("SecureField", destination: SecureFieldView())
                     NavigationLink("TextEditor", destination: TextEditorView())
                 }
-            }
+                Section(header: Text("Tappable")) {
+                    NavigationLink("Toggle", destination: ToggleView())
+                    NavigationLink("Stepper", destination: StepperView())
+                    NavigationLink("Slider", destination: SliderView())
+                    NavigationLink("Picker", destination: PickerView())
+                    NavigationLink("DatePicker", destination: DatePickerView())
+                    NavigationLink("Segmented Picker", destination: SegmentedPickerView())
+                }
+            }.listStyle(SidebarListStyle())
+                .navigationTitle("UI Control")
         }
     }
 }
 
-struct InteractiveComponentsView_Previews: PreviewProvider {
+struct UIControlView_Previews: PreviewProvider {
     static var previews: some View {
-        InteractiveUIView()
+        UIControlView()
     }
 }
