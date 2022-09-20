@@ -33,8 +33,8 @@ struct ContentView: View {
                 Image(systemName: "list.bullet")
             }.tag(4)
             
-            InteractiveUIView().tabItem {
-                Text("Interactive UI")
+            UIControlView().tabItem {
+                Text("UI Control")
                 Image(systemName: "heart.fill")
             }.tag(5)
         })
