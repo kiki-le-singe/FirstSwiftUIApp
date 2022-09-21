@@ -20,6 +20,9 @@
 		030621DD28CB8A12007A531B /* TextFieldCptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621DC28CB8A12007A531B /* TextFieldCptView.swift */; };
 		030621DF28CB94CF007A531B /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621DE28CB94CF007A531B /* SecureFieldView.swift */; };
 		030621E128CB95E6007A531B /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030621E028CB95E6007A531B /* TextEditorView.swift */; };
+		0348068C28DB3FD4009804DA /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348068B28DB3FD4009804DA /* AlertView.swift */; };
+		0348068E28DB4506009804DA /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348068D28DB4506009804DA /* ActionSheetView.swift */; };
+		0348069028DB4711009804DA /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348068F28DB4711009804DA /* ContextMenuView.swift */; };
 		038A593328C8D4CB00F82E9F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A593228C8D4CB00F82E9F /* ListView.swift */; };
 		038A593528C8D7F000F82E9F /* ScrollViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A593428C8D7F000F82E9F /* ScrollViewExampleView.swift */; };
 		038A593828C8E59500F82E9F /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A593728C8E59500F82E9F /* ForEachView.swift */; };
@@ -59,6 +62,9 @@
 		030621DC28CB8A12007A531B /* TextFieldCptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCptView.swift; sourceTree = "<group>"; };
 		030621DE28CB94CF007A531B /* SecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldView.swift; sourceTree = "<group>"; };
 		030621E028CB95E6007A531B /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		0348068B28DB3FD4009804DA /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		0348068D28DB4506009804DA /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		0348068F28DB4711009804DA /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		038A593228C8D4CB00F82E9F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		038A593428C8D7F000F82E9F /* ScrollViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleView.swift; sourceTree = "<group>"; };
 		038A593728C8E59500F82E9F /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
@@ -190,6 +196,9 @@
 				038A594628CA431C00F82E9F /* PersonView.swift */,
 				03DA5C5228CB4842000128D9 /* SimpleItemView.swift */,
 				030621D328CB7963007A531B /* UIControlView.swift */,
+				0348068B28DB3FD4009804DA /* AlertView.swift */,
+				0348068D28DB4506009804DA /* ActionSheetView.swift */,
+				0348068F28DB4711009804DA /* ContextMenuView.swift */,
 				030210FC28DA2F3200EAF545 /* SegmentedPickerView.swift */,
 				030210FA28DA2D1700EAF545 /* DatePickerView.swift */,
 				030210F828DA0A1400EAF545 /* PickerView.swift */,
@@ -295,14 +304,17 @@
 				030210F328DA079300EAF545 /* ToggleView.swift in Sources */,
 				038A594528CA42E100F82E9F /* SectionListView.swift in Sources */,
 				030621D428CB7963007A531B /* UIControlView.swift in Sources */,
+				0348068E28DB4506009804DA /* ActionSheetView.swift in Sources */,
 				030621DD28CB8A12007A531B /* TextFieldCptView.swift in Sources */,
 				030621D828CB8178007A531B /* ButtonLabelView.swift in Sources */,
 				038A593328C8D4CB00F82E9F /* ListView.swift in Sources */,
 				03E0E4C428C65EC300041E7A /* CustomNavigationView.swift in Sources */,
 				03E0E4B328C25ADC00041E7A /* FirstSwiftUIAppApp.swift in Sources */,
 				030210F728DA095D00EAF545 /* SliderView.swift in Sources */,
+				0348069028DB4711009804DA /* ContextMenuView.swift in Sources */,
 				03E0E4C628C7947F00041E7A /* BasicComponentsView.swift in Sources */,
 				038A594328CA31D500F82E9F /* Person.swift in Sources */,
+				0348068C28DB3FD4009804DA /* AlertView.swift in Sources */,
 				038A593E28C9004700F82E9F /* ListObjectView.swift in Sources */,
 				030210FD28DA2F3200EAF545 /* SegmentedPickerView.swift in Sources */,
 				03DA5C5128CB46E5000128D9 /* LazyVStackView.swift in Sources */,
