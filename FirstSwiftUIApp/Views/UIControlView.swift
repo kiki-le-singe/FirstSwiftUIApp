@@ -28,6 +28,9 @@ struct UIControlView: View {
                     NavigationLink("DatePicker", destination: DatePickerView())
                     NavigationLink("Segmented Picker", destination: SegmentedPickerView())
                 }
+                Section(header: Text("Alerts")) {
+                    NavigationLink("Alert", destination: AlertView())
+                }
             }.listStyle(SidebarListStyle())
                 .navigationTitle("UI Control")
         }
