@@ -30,6 +30,7 @@ struct UIControlView: View {
                 }
                 Section(header: Text("Alerts")) {
                     NavigationLink("Alert", destination: AlertView())
+                    NavigationLink("ActionSheet", destination: ActionSheetView())
                 }
             }.listStyle(SidebarListStyle())
                 .navigationTitle("UI Control")
