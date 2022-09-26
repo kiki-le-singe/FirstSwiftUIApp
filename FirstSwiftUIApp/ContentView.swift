@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var parser = Parser()
     @State var selection = 2
 
     var body: some View {
         TabView(selection: $selection, content: {
+            
+            DataFromAPIVIew(parser: parser).tabItem {
+                Text("API")
+                Image(systemName: "ant.fill")
+            }.tag(0)
             
             NewsView().tabItem {
                 Text("Hare")
