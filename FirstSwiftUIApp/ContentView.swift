@@ -1,0 +1,58 @@
+//
+//  ContentView.swift
+//  FirstSwiftUIApp
+//
+//  Created by Anthony Albertini on 02/09/2022.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    @StateObject var parser = Parser()
+    @State var selection = 2
+
+    var body: some View {
+        TabView(selection: $selection, content: {
+            
+            DataFromAPIVIew(parser: parser).tabItem {
+                Text("API")
+                Image(systemName: "ant.fill")
+            }.tag(0)
+            
+            NewsView().tabItem {
+                Text("Hare")
+                Image(systemName: "hare.fill")
+            }.tag(1)
+            
+            ListView().tabItem {
+                Text("List")
+                Image(systemName: "list.star")
+            }.tag(2)
+            
+            BasicComponentsView().tabItem {
+                Text("Components")
+                Image(systemName: "ant.fill")
+            }.tag(3)
+            
+            CustomNavigationView().tabItem {
+                Text("Navigation")
+                Image(systemName: "list.bullet")
+            }.tag(4)
+            
+            UIControlView().tabItem {
+                Text("UI Control")
+                Image(systemName: "heart.fill")
+            }.tag(5)
+        })
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            ContentView()
+            ContentView()
+                .previewDevice("iPad Pro (9.7-inch)")
+        }
+    }
+}
