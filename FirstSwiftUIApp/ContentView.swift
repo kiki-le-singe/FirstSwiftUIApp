@@ -5,6 +5,35 @@
 //  Created by Anthony Albertini on 02/09/2022.
 //
 
+// TabView:
+// - https://medium.com/devtechie/tabview-in-swiftui-f582fd5c6e88
+// - https://sarunw.com/posts/swiftui-tabview-color/
+
+//TabView {
+//    Color.blue
+//        .edgesIgnoringSafeArea(.vertical)
+//        .tabItem {
+//            Image(systemName: "1.circle")
+//            Text("Tab 1")
+//        }
+//
+//    Color.orange
+//        .edgesIgnoringSafeArea(.vertical)
+//        .tabItem {
+//            Image(systemName: "2.circle")
+//            Text("Tab 2")
+//        }
+//
+//    Color.mint
+//        .edgesIgnoringSafeArea(.vertical)
+//        .tabItem {
+//            Image(systemName: "3.circle")
+//            Text("Tab 3")
+//        }
+//}
+//.tabViewStyle(.page)
+//.edgesIgnoringSafeArea(.vertical)
+
 import SwiftUI
 
 struct ContentView: View {
