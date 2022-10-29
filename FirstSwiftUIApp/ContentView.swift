@@ -8,6 +8,7 @@
 // TabView:
 // - https://medium.com/devtechie/tabview-in-swiftui-f582fd5c6e88
 // - https://sarunw.com/posts/swiftui-tabview-color/
+// - https://serialcoder.dev/text-tutorials/swiftui/working-with-the-tab-view-in-swiftui/
 
 //TabView {
 //    Color.blue
