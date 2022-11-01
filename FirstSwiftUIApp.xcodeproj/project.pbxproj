@@ -49,6 +49,7 @@
 		03E0E4C228C3AD5F00041E7A /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0E4C128C3AD5F00041E7A /* NewsView.swift */; };
 		03E0E4C428C65EC300041E7A /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0E4C328C65EC300041E7A /* CustomNavigationView.swift */; };
 		03E0E4C628C7947F00041E7A /* BasicComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0E4C528C7947F00041E7A /* BasicComponentsView.swift */; };
+		03F896532911966F0028A10A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F896522911966F0028A10A /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		03E0E4C128C3AD5F00041E7A /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		03E0E4C328C65EC300041E7A /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		03E0E4C528C7947F00041E7A /* BasicComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicComponentsView.swift; sourceTree = "<group>"; };
+		03F896522911966F0028A10A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				030210F428DA088000EAF545 /* StepperView.swift */,
 				030210F628DA095D00EAF545 /* SliderView.swift */,
 				031EA22128DB69570037DF1E /* DataFromAPIVIew.swift */,
+				03F896522911966F0028A10A /* MenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				03DA5C5C28CB689C000128D9 /* LazyHGridView.swift in Sources */,
 				031EA22228DB69570037DF1E /* DataFromAPIVIew.swift in Sources */,
 				038A593C28C8F45300F82E9F /* ListDynamicView.swift in Sources */,
+				03F896532911966F0028A10A /* MenuView.swift in Sources */,
 				03E0E4C228C3AD5F00041E7A /* NewsView.swift in Sources */,
 				03E0E4B528C25ADC00041E7A /* ContentView.swift in Sources */,
 				030621D628CB7DCF007A531B /* ButtonTextView.swift in Sources */,

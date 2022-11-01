@@ -32,6 +32,7 @@ struct UIControlView: View {
                     NavigationLink("Alert", destination: AlertView())
                     NavigationLink("ActionSheet", destination: ActionSheetView())
                     NavigationLink("ContextMenu", destination: ContextMenuView())
+                    NavigationLink("Menu", destination: MenuView())
                 }
             }.listStyle(SidebarListStyle())
                 .navigationTitle("UI Control")
