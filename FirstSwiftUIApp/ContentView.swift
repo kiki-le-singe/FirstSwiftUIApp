@@ -5,10 +5,18 @@
 //  Created by Anthony Albertini on 02/09/2022.
 //
 
+// //////////
 // TabView:
 // - https://medium.com/devtechie/tabview-in-swiftui-f582fd5c6e88
 // - https://sarunw.com/posts/swiftui-tabview-color/
 // - https://serialcoder.dev/text-tutorials/swiftui/working-with-the-tab-view-in-swiftui/
+// - https://www.bigmountainstudio.com/community/public/posts/86559-how-to-customize-the-tabview-in-swiftui
+// Full custom TabBarView: https://truongvankien.medium.com/custom-tabview-in-swiftui-e7c0bf5667ab
+// - https://blog.devgenius.io/swiftui-tutorial-working-with-tabview-1922de2647b8
+// Custom Top TabBar: - https://medium.com/geekculture/custom-top-tab-bar-in-ios-swift-swiftui-93e4fc3e5d5b
+
+// custom unSelectedItem etc... https://stackoverflow.com/questions/60038183/ios13-uitabbar-tintcolor-for-unselecteditem-not-working
+
 
 //TabView {
 //    Color.blue
@@ -35,6 +43,15 @@
 //.tabViewStyle(.page)
 //.edgesIgnoringSafeArea(.vertical)
 
+// END/TabView ////////////////////////
+
+// ///////
+// Group
+
+// - https://developer.apple.com/documentation/swiftui/group
+// - https://medium.com/geekculture/swiftui-tutorial-working-with-group-58aace3addda
+
+// END/Group //////////
 import SwiftUI
 
 struct ContentView: View {
@@ -82,7 +99,7 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ContentView()
-                .previewDevice("iPad Pro (9.7-inch)")
+                .previewDevice("iPhone 8")
         }
     }
 }
