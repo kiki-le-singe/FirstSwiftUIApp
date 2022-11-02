@@ -52,6 +52,15 @@
 // - https://medium.com/geekculture/swiftui-tutorial-working-with-group-58aace3addda
 
 // END/Group //////////
+
+// ///////////
+// Dark mode
+// ///////////
+
+// - https://designcode.io/swiftui-handbook-light-dark-modes
+
+// END/Dark mode //////////
+
 import SwiftUI
 
 struct ContentView: View {
