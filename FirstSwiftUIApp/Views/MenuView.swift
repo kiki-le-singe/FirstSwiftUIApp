@@ -25,6 +25,15 @@ struct MenuView: View {
         } label: {
             Image(systemName: "ellipsis.circle")
         }
+        
+//        Menu("Edit") {
+//            Menu("Arrange") {
+//                Button("Bring to Front", action: {})
+//                Button("Send to Back", action: {})
+//            }
+//            Button("Delete", action: {})
+//        }
+        
 //    primaryAction: {
 //            justDoIt()
 //        }
